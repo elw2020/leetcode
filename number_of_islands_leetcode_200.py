@@ -3,7 +3,7 @@ class Solution(object):
         """
         :type grid: List[List[str]]
         :rtype: int
-        """
+        """ 
         def getIslandLength(node):
             stack = [node]
             while stack:
